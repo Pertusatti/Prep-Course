@@ -1,0 +1,48 @@
+Variables
+Strings
+Funciones (argumentos, return)
+Declaraciones if
+Valores booleanos (true, false)
+
+
+Variable: Una variable según lo entendido en las clases de henry es una palabra que se le quiere otorgar a un elemento como por ejemplo: var, let, const.
+
+Esta puede ser cualquier palabra y se le puede, o mas bien tiene que dar un valor, ej: var numero=1; 
+Esto de arriba sirve para almacenar datos dentro de una variable que pueden ser utilizadas luego
+
+String: Las string es un texto, Que siempre va ir entre comillas simples o dobles ("")('')
+ejemplo: var 'string' o var "string"
+
+Funciones (argumentos, return):
+En primera estancia las funciones(function) sirven para almacenar varios datos y ejecutarlos todas las veces que quieras, de manera asi que nos ahorremos tiempo cuando tengamos que trabajar con patrones que se repitan
+
+Es necesario que esas funciones les asignemos variables para trabajar con ellas, esta se reperentan: function (nombre de la funcion)(variable){
+	
+el return lo que hace es devolverte los valores, ya sea de una suma, resta, division, un string, etc.
+
+
+Declaraciones IF:
+Las declaraciones if son muy conocidas y usadas, if=si, esto quiere decir que si la funcion cumple con los requisitos del codigo puesto, entonces se va a ejecutar, esta a veces cuentan con un else if, else, donde podremos ejecutar mas codigos si queremos.
+
+EJEMPLO: 
+if (10>9){
+	cosnole.log('es correcto, es mayor')
+}
+else{
+	console.log('es incorrecto, es menor')
+}
+
+valores booleanos:
+Estos son atributos que pueden ser únicamente verdaderas (true) o falsas (false)
+
+Si se cumple con que lo ingresado en el codigo es verdadero entonces esta va a seguir ejecutandose hasta que se cumpla lo contrario
+
+EJEMPLO
+for(i=1,i<10,i++)
+return true ;
+console.log('se va a imprimir un mensaje cada hasta que i sea =>10')
+luego cuando ya no se cumpla con lo pedido en el for va a buscar otro comando, en este caso
+
+return false;
+console.log('ya no se puede ejecutar porque i es mayor o igual que 10')
+
